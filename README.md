@@ -30,94 +30,70 @@
 
 ## 🎯 **Project Overview**
 
-**HealSync** is a comprehensive healthcare patient appointment system designed to guide users through a complete medical journey - from symptom recognition to post-visit follow-up. Built with React.js and Tailwind CSS, it features an AI-powered chatbot, bilingual support (English/Kinyarwanda), and a calming, stress-reducing interface for users who may be sick or stressed.
+**HealSync** is a complete healthcare appointment system. It guides users through an **8‑step patient journey** – from symptom input to follow‑up reminders – using an **AI chatbot**, **bilingual support** (English/Kinyarwanda), and a **calming, mobile‑first interface** designed for stressed users and low‑internet environments.
 
 ### 🌟 **Why HealSync?**
 
 | Feature | Description |
 |---------|-------------|
-| 🚀 **Complete 8-Step Journey** | Seamless experience from symptom input to medication reminders |
-| 🤖 **AI Health Assistant** | 24/7 intelligent chatbot for health queries |
-| 🌍 **Bilingual Support** | Full English & Kinyarwanda translation |
-| 🌙 **Dark/Light Mode** | Visual comfort for all users |
-| 🚑 **Emergency Ready** | One-tap access to emergency services: **+250795071597** |
-| 📱 **Mobile-First** | Optimized for all devices, especially first-time smartphone users |
-| ⚡ **Low Internet Optimization** | Lightweight, fast-loading for connectivity-challenged areas |
-| 💚 **Calming UI** | Designed specifically for stressed or unwell users |
-| 💾 **Offline Support** | Appointments saved using localStorage |
+| 🚀 **Complete 8‑Step Journey** | Symptom input → Doctor discovery → Booking → Check‑in → Live queue → Summary → Reminders |
+| 🤖 **AI Health Assistant** | 24/7 chatbot that answers health questions |
+| 🌍 **Bilingual Support** | Fully translated UI: English & Kinyarwanda |
+| 🌙 **Dark/Light Mode** | Instant theme toggle |
+| 🚑 **Emergency Ready** | One‑tap access to emergency services: **+250795071597** |
+| 📱 **Mobile‑First** | Optimised for smartphones, especially first‑time users |
+| 💚 **Calming UI** | Soft teal/blue colours, gentle animations |
 
 ---
 
-## ✨ **Complete 8-Step Patient Journey**
+## ✨ **Complete 8‑Step Patient Journey**
 
-| Step | Feature | Description | Status |
-|:----:|---------|-------------|:------:|
-| 1 | 🤒 **Symptom Input** | Guided symptom checker with common symptoms and text input | ✅ |
-| 2 | 👨‍⚕️ **Doctor Discovery** | Smart doctor recommendations based on your symptoms | ✅ |
-| 3 | 📅 **Appointment Booking** | Easy date and time selection with availability check | ✅ |
-| 4 | ✅ **Confirmation** | Detailed appointment confirmation and reminders | ✅ |
-| 5 | 🏥 **Hospital Check-in** | Digital check-in with QR code-like queue assignment | ✅ |
-| 6 | ⏳ **Live Waiting Queue** | Real-time position updates with estimated wait times | ✅ |
-| 7 | 📋 **Post-Visit Summary** | Digital diagnosis, prescription, and health records | ✅ |
-| 8 | 💊 **Follow-up Reminder** | Medication schedule and follow-up appointment alerts | ✅ |
-
----
-
-## 🚀 **Advanced Features**
-
-### 🤖 **AI Health Assistant**
-- 24/7 intelligent chatbot
-- Symptom analysis and guidance
-- Doctor recommendations
-- Medication information
-- Emergency instructions
-
-### 🌍 **Bilingual Support**
-
-| Language | Status | Coverage |
-|----------|:------:|----------|
-| 🇬🇧 **English** | ✅ Complete | Full UI + AI responses |
-| 🇷🇼 **Kinyarwanda** | ✅ Complete | Full UI + AI responses |
-
-### 🎨 **Theme Options**
-
-| Theme | Status | Benefit |
-|-------|:------:|---------|
-| ☀️ **Light Mode** | ✅ Complete | Professional healthcare theme |
-| 🌙 **Dark Mode** | ✅ Complete | Eye-friendly reduced strain |
-
-### 🚑 **Emergency Features**
-
-| Service | Number | Availability |
-|---------|--------|:------------:|
-| 🚑 **Ambulance** | **+250795071597** | 24/7 |
-| 👮 **Police** | 112 | 24/7 |
-| 🔥 **Fire Brigade** | 111 | 24/7 |
-| 👨‍⚕️ **Emergency Doctor** | +250795071597 | 24/7 |
+| Step | Feature | Status |
+|:----:|---------|:------:|
+| 1 | 🤒 **Symptom Input** | ✅ |
+| 2 | 👨‍⚕️ **Doctor Discovery** | ✅ |
+| 3 | 📅 **Appointment Booking** | ✅ |
+| 4 | ✅ **Confirmation** | ✅ |
+| 5 | 🏥 **Hospital Check‑in** | ✅ |
+| 6 | ⏳ **Live Waiting Queue** | ✅ |
+| 7 | 📋 **Post‑Visit Summary** | ✅ |
+| 8 | 💊 **Follow‑up Reminder** | ✅ |
 
 ---
 
 ## 🛠️ **Technology Stack**
 
-<div align="center">
-
-| Category | Technology | Version | Purpose |
-|----------|------------|:-------:|---------|
-| **Frontend Framework** | React.js | 18.2.0 | UI Components |
-| **Styling** | Tailwind CSS | 3.4.0 | Responsive Design |
-| **Animations** | Framer Motion | 11.0.0 | Smooth Transitions |
-| **Routing** | React Router DOM | 6.22.0 | Page Navigation |
-| **Icons** | React Icons | 5.0.0 | Icon Library |
-| **Build Tool** | Vite | 5.0.8 | Fast Development |
-
-</div>
+| Category | Technology | Version |
+|----------|------------|:-------:|
+| Frontend | React.js | 18.2.0 |
+| Styling | Tailwind CSS | 3.4.0 |
+| Animations | Framer Motion | 11.0.0 |
+| Routing | React Router DOM | 6.22.0 |
+| Icons | React Icons | 5.0.0 |
+| Build tool | Vite | 5.0.8 |
 
 ---
 
-## 📦 **Installation & Setup**
+## 🌐 **Live Demo**
 
-### Prerequisites
+| Platform | URL |
+|----------|-----|
+| **Vercel (primary)** | https://heal-sync-patient-appointment-syste.vercel.app |
+| **GitHub Repository** | https://github.com/Elim2727/HealSync-Patient-Appointment-System |
+
+---
+
+## 📦 **Quick Start**
 
 ```bash
-Node.js (v18 or higher)
-npm (v9 or higher)
+# Clone the repository
+git clone https://github.com/Elim2727/HealSync-Patient-Appointment-System.git
+
+# Go into the project folder
+cd HealSync-Patient-Appointment-System
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
